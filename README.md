@@ -68,7 +68,7 @@ House-Price-Prediction/
 ### Clone the Repository
 
 **Repository Link:**
-https://github.com/AmitSharma9754/Insurance-Claim-Predictor
+https://github.com/AmitSharma9754/House-price-prediction
 
 **Clone using Git:**
 git clone https://github.com/AmitSharma9754/House-price-prediction.git
