@@ -71,7 +71,7 @@ House-Price-Prediction/
 https://github.com/AmitSharma9754/Insurance-Claim-Predictor
 
 **Clone using Git:**
-git clone https://github.com/AmitSharma9754/Insurance-Claim-Predictor.git
+git clone https://github.com/AmitSharma9754/House-price-prediction.git
 cd Insurance-Claim-Predictor
 
 ### Install Dependencies
