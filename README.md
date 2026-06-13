@@ -1,4 +1,4 @@
-<img width="1707" height="1007" alt="Screenshot 2026-06-13 204604" src="https://github.com/user-attachments/assets/9859bf3c-95c7-4f58-bf73-fd6c5e4a7d69" /># 🏠 House Price Predictor
+# House Price Prediction
 
 *A Machine Learning-Based House Price Estimation System*
 
