@@ -1,50 +1,39 @@
-# 🏠 House Price Prediction
+<img width="1707" height="1007" alt="Screenshot 2026-06-13 204604" src="https://github.com/user-attachments/assets/9859bf3c-95c7-4f58-bf73-fd6c5e4a7d69" /># 🏠 House Price Predictor
 
-A Machine Learning project that predicts house prices using Multiple Linear Regression.
+*A Machine Learning-Based House Price Estimation System*
 
-## Project Overview
+This project is a **Streamlit-based House Price Predictor** that provides:
 
-This project uses house-related features such as:
+- Real-time house price prediction
+- Interactive analytics dashboard
+- Model performance evaluation
+- Feature importance analysis
+- Correlation heatmap visualization
+- Predicted vs Actual price analysis
+- Modern responsive user interface
 
-- Square Footage
-- Number of Bedrooms
-- Number of Bathrooms
-- Year Built
-- Lot Size
-- Garage Size
-- Neighborhood Quality
+The system uses **Machine Learning**, **Multiple Linear Regression**, and **Interactive Visualizations** to estimate residential property prices based on key housing features.
 
-to predict the final house price.
+---
 
-## Models Evaluated
+## Features
 
-- Multiple Linear Regression ✅ (Selected Final Model)
-- Random Forest Regression
-- Decision Tree Regression
-- Support Vector Regression (SVR)
-- Polynomial Regression
+* House Price Prediction
+* Interactive Streamlit Dashboard
+* Data Visualization & Insights
+* Feature Importance Analysis
+* Correlation Heatmap
+* Predicted vs Actual Price Comparison
+* Model Performance Evaluation
+* Responsive Modern UI
+* Real-Time Property Value Estimation
 
-## Final Model Performance
-
-| Metric | Value |
-|----------|----------|
-| R² Score | 0.9984 |
-| MAE | ₹ 7,823 |
-| RMSE | ₹ 9,882 |
-| Accuracy (±10%) | 100% |
-
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- Streamlit
+---
 
 ## Project Structure
 
 ```text
-HousePricePrediction/
+House-Price-Prediction/
 │
 ├── app.py
 ├── house_price_model.pkl
@@ -55,25 +44,252 @@ HousePricePrediction/
 ├── SVR_regression.ipynb
 ├── Polynomial_linear_regression.ipynb
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
-## Run Locally
+---
 
-Install dependencies:
+## Tech Stack
+
+* Python 3.x
+* Streamlit
+* Pandas
+* NumPy
+* Scikit-Learn
+* Plotly
+* Joblib
+* Matplotlib
+
+---
+
+## Installation & Setup
+
+### Clone the Repository
+
+**Repository Link:**
+https://github.com/AmitSharma9754/Insurance-Claim-Predictor
+
+**Clone using Git:**
+git clone https://github.com/AmitSharma9754/Insurance-Claim-Predictor.git
+cd Insurance-Claim-Predictor
+
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Streamlit app:
+### Run the Application
 
 ```bash
 streamlit run app.py
 ```
 
-## Author
+---
 
-Amit Sharma
+## Dashboard Modules
 
-B.Tech Student | Machine Learning Enthusiast | Python Developer
+| Module | Description |
+|----------|-------------|
+| House Price Prediction | Predicts property prices using machine learning |
+| Data Visualization | Interactive charts and housing insights |
+| Model Accuracy | R² Score, MAE and RMSE analysis |
+| Feature Importance | Importance ranking of housing features |
+| Correlation Heatmap | Relationship between dataset features |
+| Predicted vs Actual | Model prediction performance visualization |
+| Developer Information | Project and developer details |
+
+---
+
+## Dataset Features
+
+The model uses the following housing features:
+
+* Square Footage
+* Number of Bedrooms
+* Number of Bathrooms
+* Year Built
+* Lot Size
+* Garage Size
+* Neighborhood Quality
+
+### Target Variable
+
+* House Price
+
+---
+
+## Machine Learning Models Evaluated
+
+### Models Tested
+
+* Multiple Linear Regression ✅ (Final Selected Model)
+* Random Forest Regression
+* Decision Tree Regression
+* Support Vector Regression (SVR)
+* Polynomial Regression
+
+### Final Model Performance
+
+| Metric | Value |
+|----------|----------|
+| R² Score | 0.9984 |
+| MAE | ₹ 7,823 |
+| RMSE | ₹ 9,882 |
+| Accuracy (±10%) | 100% |
+
+---
+
+## Data Visualizations Included
+
+* Feature Importance Chart
+* Correlation Heatmap
+* Predicted vs Actual Price Graph
+* Dataset Insights Dashboard
+* Performance Metrics Cards
+
+---
+
+## How to Use
+
+### Step 1
+
+Enter property information:
+
+* Square Footage
+* Number of Bedrooms
+* Number of Bathrooms
+* Year Built
+* Lot Size
+* Garage Size
+* Neighborhood Quality
+
+### Step 2
+
+Click:
+
+```text
+Predict House Price
+```
+
+### Step 3
+
+The application will generate:
+
+* Estimated House Price
+* Prediction Summary
+* Model-Based Property Valuation
+
+### Step 4
+
+Explore:
+
+* Data Visualization Tab
+* Model Accuracy Tab
+* Feature Importance Analysis
+* Correlation Analysis
+
+---
+
+## Screenshots
+
+### Home Page
+
+![Home Page](https://github.com/user-attachments/assets/c174f983-6a31-4f0e-b29d-bc828af06154
+)
+
+---
+
+### House Price Prediction
+
+![Prediction](https://github.com/user-attachments/assets/3454c3d6-2f79-47a4-9cce-f1db440c2049>
+)
+
+---
+
+### Data Visualization Dashboard
+
+![Dashboard](https://github.com/user-attachments/assets/05dfa2d3-23c7-4bae-9b63-d351a321c917
+)
+
+---
+
+### Model Performance Metrics
+
+![Model Metrics](https://github.com/user-attachments/assets/773e4214-4ead-4e21-a1b5-81fa1e3d8644
+)
+
+---
+
+### Developer & Info
+
+![Developer & Info](https://github.com/user-attachments/assets/62b939cb-9024-41a2-bcc1-41d3bc2df733
+)
+
+---
+
+## Future Improvements
+
+* Cloud Deployment
+* Advanced Analytics Dashboard
+* User Authentication
+* Prediction History Tracking
+* Multiple Model Selection
+* Downloadable Prediction Reports
+* Geographic Price Visualization
+
+---
+
+## Disclaimer
+
+This application is developed strictly for educational and learning purposes only.
+
+The predicted house prices generated by this system are machine learning estimations and should not be considered official real-estate valuations.
+
+Actual property prices may vary depending on location, market conditions, legal factors, economic trends, and other external influences.
+
+For real property investments and valuation decisions, users should consult certified real-estate professionals.
+
+The developer is not responsible for any decisions made based on the predictions generated by this application.
+
+---
+
+## Contribution
+
+You can contribute by:
+
+* Improving model accuracy
+* Enhancing the user interface
+* Adding new visualizations
+* Optimizing performance
+* Adding additional machine learning models
+* Fixing bugs
+
+Pull requests are welcome.
+
+---
+## Project Highlights
+
+✅ Machine Learning Project
+
+✅ Streamlit Web Application
+
+✅ Multiple Regression Model Comparison
+
+✅ Real-Time House Price Prediction
+
+✅ Interactive Data Visualization
+
+✅ High Accuracy Model (R² = 0.9984)
+
+✅ Portfolio & Resume Ready Project
+
+---
+
+
+##  Contact
+
+**Amit Sharma**   
+📩 Email: Amitsharma97545@gmail.com  
+🐙 GitHub: https://github.com/AmitSharma9754
