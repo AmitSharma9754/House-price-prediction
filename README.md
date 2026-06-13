@@ -203,7 +203,7 @@ Explore:
 
 ### House Price Prediction
 
-![Prediction](https://github.com/user-attachments/assets/3454c3d6-2f79-47a4-9cce-f1db440c2049>
+![Prediction](https://github.com/user-attachments/assets/3454c3d6-2f79-47a4-9cce-f1db440c2049
 )
 
 ---
